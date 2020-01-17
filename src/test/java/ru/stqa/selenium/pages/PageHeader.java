@@ -12,6 +12,7 @@ public class PageHeader extends Page {
     @FindBy(className = "mc-avatar-image")
    WebElement avatarImage;
 
+
     public PageHeader(WebDriver driver) {
         super(driver);
     }
